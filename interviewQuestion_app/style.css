@@ -1,0 +1,70 @@
+.flex-container {
+    display: flex;
+    
+}
+
+.flex-container > div {
+   color: black;
+    width: 50%;
+    margin: 10px;
+    text-align: left;
+    line-height: 75px;
+    font-size: 30px;
+  bottom: 0;
+  margin-bottom: 0;
+}
+
+.container2 {
+    display: flex;
+}
+
+.textarea {
+    width: 50%;
+    height: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    color: black;
+}
+
+button{
+  color:black;
+  font-size: 20px;
+}
+
+#textarea1{
+    font-size: 25px;
+}
+#elementToShow{
+    font-size: 20px;
+    display: none;
+}
+.box{
+  background-color: lightgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
+}
+.read-me{
+  background-color: lightgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+}
+.read-me > p{
+  font-size: 20px;
+}
+h1{
+  font-size: 30px;
+  text-align: center;
+}
+
+#wrap{
+  width: 70%;
+  padding-left: 15%;
+}
