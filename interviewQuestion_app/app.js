@@ -1,4 +1,6 @@
-		// function that saves input in text area 1, calls function and outputs it in text area 2
+
+   
+   // function that saves input in text area 1, calls function and outputs it in text area 2
         async function savevar(){
             // Get the value of textarea1
             const text = document.getElementById("textarea1").value;
@@ -18,7 +20,7 @@
       
       // Set up API credentials 
       
-      const API_KEY = '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';
+      const API_KEY = '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';
       const API_URL = 'https://api.openai.com/v1/completions';
 
       // functio to make API request
