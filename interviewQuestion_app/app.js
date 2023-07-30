@@ -1,6 +1,4 @@
-
-   
-   // function that saves input in text area 1, calls function and outputs it in text area 2
+    // function that saves input in text area 1, calls function and outputs it in text area 2
         async function savevar(){
             // Get the value of textarea1
             const text = document.getElementById("textarea1").value;
