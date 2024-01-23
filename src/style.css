@@ -85,10 +85,16 @@ h2{
     font-size: 50px;
 }
 .project-card{
+    position: relative;
     width: 300px;
     height: 500px;
     box-shadow: 5px 5px 20px darkgrey;
     margin: 10px;
+}
+.project-card2{
+    position: absolute;
+    bottom: 120px;
+    width: 100%;
 }
 .project-container{
     display: flex;
