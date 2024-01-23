@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+    margin: 0 50px;
+}
+.container{
+    width: 780px;
+}
+
+
+.container2{
+    display: flex;
+    gap: 50px;
+    border: solid;
+    border-radius: 15px;
+    padding: 20px;
+    width: 780px;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+#posts{
+    width: 400px;
+}
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    gap: 25px;
+}
+i{
+    cursor: pointer;
+}
+#msg{
+    color: red;
+}
+h3{
+    position: relative;
+    top: -15px;
+}
+.font{
+    font-size: 17px;
+}
+.card{
+    border: solid;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: white;
+}

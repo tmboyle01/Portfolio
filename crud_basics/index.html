@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CRUD basics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+  </head>
+  <body>
+
+    <div class="container">
+	<h1>Reminder App</h1> 
+
+    <div class="container2">
+        <div class="left">
+            <form id="form">
+                <label class="font" for=""></label><b>Write your post here:</b></label>
+                <br><br>
+                <textarea name="" id="input" cols="30" rows="10"></textarea>
+                <br><br>
+                <div id="msg"></div>
+                <button type="submit">Post</button>
+            </form>
+        </div>
+        <hr>
+        <div class="right">
+            <h3 class="font">Your posts here:</h3>
+            <div id="posts">
+
+                <div class="card">
+                    <p>Example post</p>
+                    <span class="options">
+                        <i onClick="editPost(this)" class="fas fa-edit"></i>
+                        <i onClick="deletePost(this)" class="fas fa-trash-alt"></i>
+                    </span>
+                </div>
+                <br>
+                <div class="card">
+                    <p>Example post</p>
+                    <span class="options">
+                        <i onClick="editPost(this)" class="fas fa-edit"></i>
+                        <i onClick="deletePost(this)" class="fas fa-trash-alt"></i>
+                    </span>
+                </div>
+
+
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+  </body>
+  <script src="main.js"></script>
+</html>
